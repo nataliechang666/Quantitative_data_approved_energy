@@ -18,6 +18,6 @@ The feature important shows "HourlyAltimeterSetting" is the most important colum
 
 # Conclusion 2020 vs 2021
 
-
+<img src="2020vs2021.png" alt="Cover" width="50%"/>
 
 
