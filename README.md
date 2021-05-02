@@ -1,7 +1,7 @@
 # Weather Normolization
 
 - Data processing and data analysis
-- Regression Model 1. Linear Regression 2. lightGBM Regressor
+- Prediction Model 1. Linear Regression 2. lightGBM Regressor
 - Conclusion 2020 vs 2021
 
 # Data processing and data analysis
@@ -11,3 +11,7 @@ We can see in this figure, actual load is highest in the summer and least in the
 
 <img src="Load_Time.png" alt="Cover" width="50%"/>
 
+# Prediction Model
+The linear regression gets around 0.3 R squared accuracy. It is low and we can say it is because there are not linear between features and label. Next, we uses lightGBM Regressor and after parameter tuning, we get around 0.74 R squared accuracy.
+
+# Conclusion 2020 vs 2021
