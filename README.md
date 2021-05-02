@@ -11,6 +11,10 @@ For the data analysis part, we can see that actual load is highest in the summer
 
 <img src="Load_Time.png" alt="Cover" width="50%"/>
 
+The correlation plot shows that the temperature of "HourlyDryBulb", "HourlyWetBulb", "HourlyDewPoint" has positive correlation to the Actual Load.
+
+<img src="Load_Time.png" alt="Cover" width="50%"/>
+
 # Prediction Model
 We use 80% data for training and 20% for testing. The linear regression gets around 0.22 R squared accuracy. It is low and we can say it is because there are not linear between features and label. Next, we uses lightGBM Regressor and after parameter tuning, we get around 0.74 R squared accuracy.
 
